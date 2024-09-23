@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
     <header class="header">
         <a href="index.html">
@@ -24,11 +26,36 @@
     </nav>
 
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React Js</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+
+            <div class="camisa__contenido">
+                <p>Sed vitae cursus enim, ut fringilla urna. Duis vulputate sed risus id sagittis. Quisque et nunc
+                    tristique, vehicula arcu nec, aliquet metus. Maecenas consequat vehicula lorem, eget vehicula neque
+                    pulvinar et. Vivamus vulputate mauris a auctor porttitor. Curabitur eget ornare ex, nec viverra
+                    neque. Nulla semper suscipit metus. Praesent nec ante eget eros aliquam pharetra. 
+                </p>
+
+                <form class="formulario">
+                    <select class="formulario__campo" name="" id="">
+                        <option value="placeholder" disabled selected>Seleccionar Talla</option>
+                        <option value="Pequeña">Pequeña</option>
+                        <option value="Mediana">Mediana</option>
+                        <option value="Grande">Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+
+            </div>
+
+        </div>
     </main>
 
     <footer class="footer">
         <p class="footer__texto">Front End Store todos los derechos reservados, 2024, Aelis</p>
     </footer>
 </body>
+
 </html>
